@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,500;1,600;1,700;1,800&family=Poppins:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio sample</title>
+  </head>
+  <body class="bg-[#FFFAFA] md:px-28 md:pt-28 px-1 pt-20 font-poppins">
+    <div class="topbar fixed left-0 top-0  md:px-28 md:py-5 px-1 py-2 w-full  bg-[#FFFAFA] overflow-hidden">
+      <div class="topbox flex justify-between items-center overflow-hidden">
+        <div class="leftside w-full flex-1">
+          <div class="logobox flex justify-between">
+            <div
+              class="logo text-[#282828] mr-28 text-2xl sm:text-3xl md:text-4xl font-semibold"
+            >
+              Benzatine
+            </div>
+            <div
+              class="socialsbox md:flex hidden justify-start items-center w-full gap-10"
+            >
+              <div class="dribble text-xl text-[#FF4C60] cursor-pointer">
+                <span><i class="bx bxl-dribbble"></i></span>Dribble
+              </div>
+              <div class="behiance text-xl cursor-pointer text-[#282828]">
+                <i class="bx bxl-behance"></i>Behance
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rightside flex-1">
+          <div class="hamurger text-end cursor-pointer">
+            <i class="bx bx-menu-alt-right text-3xl md:text-4xl"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="w-full h-auto lg:h-[80vh]">
+      <div class="mainheader flex flex-col sm:flex-row justify-between items-center gap-2 md:gap-10">
+        <div class="leftbox flex-1 ">
+          <div class="titlebox flex flex-col gap-2 sm:gap-4 md:gap-8 justify-center items-center sm:justify-start sm:items-start">
+            <div
+              class="title  text-4xl md:text-6xl font-semibold  text-[#282828]"
+            >
+              Hello, I'm
+            </div>
+            <div
+              class="title  text-4xl md:text-6xl font-semibold text-[#282828]"
+            >
+              Hitesh Tapaniya
+            </div>
+            <div
+              class="subtitle  text-4xl md:text-6xl font-semibold text-[#FF4C60]"
+            >
+              UX-UI Designer
+            </div>
+          </div>
+          <div class="cvbox flex gap-5 sm:justify-start justify-center items-center ">
+            <div class="cv text-sm md:text-xl mt-7 hover:text-[#FF4C60] cursor-pointer ">Download Resume</div>
+            <div class="empty w-12 md:w-32 h-[.5px] bg-[#282828] mt-8 sm:flex hidden "></div>
+          </div>
+
+          <div
+            class="scroll hidden sm:flex items-center gap-4 md:gap-8 mt-8  "
+          >
+            <div class="iconboc">
+              <img
+                src="/Images/scroll.png"
+                alt=""
+                class="p-3 md:p-6 bg-white rounded-full shadow-md"
+              />
+            </div>
+            <div class="scrolltext text-sm md:text-xl">Scrol Down</div>
+          </div>
+        </div>
+        <div class="rightside flex-1">
+          <img src="/Images/header.png" alt="" class="object-cover" />
+        </div>
+      </div>
+    </header>
+    <main class="main overflow-hidden">
+      <section class="newsletter h-auto mt-28">
+        <div
+          class="newsletterbox bg-[#F9F3F5] flex flex-col sm:flex-row items-center md:px-20 md:py-8 py-4 px-1 gap-5 md:gap-16"
+        >
+          <div class="leftside sm:w-[45%] w-full">
+            <div class="titlebox w-full">
+              <div
+                class="maintitle w-full flex justify-center text-2xl md:text-3xl font-extrabold text-[#282828]"
+              >
+                Newsletter
+              </div>
+              <div
+                class="subtitle flex w-full justify-center items-center text-center text-lg md:text-xl font-poppins text-[#C4C4C4] mt-4"
+              >
+                Mauris aliquet egestas metus, id pellentesque mauris tincidunt.
+              </div>
+            </div>
+          </div>
+          <div class="rightside w-full sm:w-[55%] px-2">
+            <div class="boxinp w-full flex items-center bg-[#FFFAFA] shadow-md">
+              <form
+                action="text"
+                class="sm:pl-5 pl-2  text-lg md:text-xl font-sans text-[#979797] w-full"
+              >
+                <input
+                  type="text"
+                  placeholder="Enter your mail "
+                  class="bg-[#FFFAFA]"
+                />
+              </form>
+              <button
+                class="w-full text-sm md:text-xl text-[#282828] py-4 rounded-full flex justify-center items-center "
+              >
+                Subcribe Now
+                <span class="ml-1 pt-2"
+                  ><i class="bx bx-chevrons-right text-3xl md:text-5xl"></i
+                ></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills h-auto mt-28 w-full">
+        <div class="skillsbox flex flex-col sm:flex-row gap-10 w-full justify-center items-center">
+          <div
+            class="leftside bg-pinky-img bg-cover bg-center bg-no-repeat w-full sm:w-[45%] flex justify-center items-center"
+          >
+            <img src="/Images/graph.png" alt="" class="p-8" />
+          </div>
+          <div class="rightside w-full sm:w-[55%]">
+            <div class="headings w-full text-[#282828] font-poppins ">
+              <div class="tophead text-2xl md:text-4xl font-semibold flex justify-center items-center">My Best Skills</div>
+              <div class="bottomhead text-sm md:text-md mt-5">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit nullam
+                placerat est quis lorem tristique aliquet cras quis tristique
+                felis vitae eleifend sapien.
+              </div>
+            </div>
+            <div
+              class="skillslist w-full mt-10 flex justify-between items-center gap-3"
+            >
+              <div
+                class="skill flex flex-col gap-1 justify-center items-center"
+              >
+                <div class="skillname text-sm md:text-xl">Ui-Ui Design</div>
+                <div class="text-lg md:text-2xl font-poppins font-semibold">90%</div>
+              </div>
+              <div
+                class="skill flex flex-col gap-1 justify-center items-center"
+              >
+                <div class="skillname text-sm md:text-xl">Web Design</div>
+                <div class="text-lg md:text-2xl font-poppins font-semibold">95%</div>
+              </div>
+              <div
+                class="skill flex flex-col gap-1 justify-center items-center"
+              >
+                <div class="skillname text-sm md:text-xl">Graphics</div>
+                <div class="text-lg md:text-2xl font-poppins font-semibold">92%</div>
+              </div>
+              <div
+                class="skill flex flex-col gap-1 justify-center items-center"
+              >
+                <div class="skillname text-sm md:text-xl">App Design</div>
+                <div class="text-lg md:text-2xl font-poppins font-semibold">90%</div>
+              </div>
+            </div>
+            <div
+              class="cvbox flex gap-5 justify-start items-center mt-8 text-[#FF4C60] cursor-pointer"
+            >
+              <div class="cv sm:text-lg md:text-xl font-poppins mt-7 ">Download Resume</div>
+              <div class="empty hidden sm:flex w-14 md:w-32 h-[.5px] bg-[#FF4C60] mt-8"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="service h-auto mt-28">
+        <div
+          class="servicebox bg-[#F9F3F5] flex flex-col sm:flex-row items-center md:px-20 md:py-8 py-4 px-1 gap-5 md:gap-16"
+        >
+          <div class="leftside w-full sm:w-[45%]">
+            <div class="titlebox w-full">
+              <div
+                class="maintitle w-full flex justify-center text-2xl md:text-3xl font-poppins font-extrabold text-[#282828]"
+              >
+                Services
+              </div>
+              <div
+                class="subtitle flex w-full justify-center items-center text-center text-lg md:text-xl font-poppins text-[#C4C4C4] mt-4"
+              >
+                Mauris aliquet egestas metus, id pellentesque mauris tincidunt.
+              </div>
+            </div>
+          </div>
+          <div class="rightside w-full sm:w-[55%]">
+            <div class="boxinp w-full flex items-center bg-[#FFFAFA] shadow-md">
+              <form
+                action="text"
+                class="pl-5 text-lg md:text-xl font-sans text-[#979797] w-full flex"
+              >
+                <button class="icon">
+                  <i class="bx bx-search mt-2 ml-2"></i>
+                </button>
+                <input
+                  type="text"
+                  placeholder="Service search"
+                  class="bg-[#FFFAFA] outline-none"
+                />
+              </form>
+              <button
+                class="w-full text-xs sm:text-xs md:text-xl text-[#282828] py-4 rounded-full flex justify-center items-center"
+              >
+                Hier Now
+                <span class="ml-1 pt-2"
+                  ><i class="bx bx-chevrons-right text-2xl sm:text-3xl md:text-5xl"></i
+                ></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="expertise h-auto mt-28">
+        <div class="experticebox flex flex-col sm:flex-row w-full justify-center items-center md:gap-0 gap-7">
+          <div class="leftside w-full sm:w-[50%]">
+            <div class="expertiselayout grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-8 ">
+              <div
+                class="expertisecard flex flex-col bg-white py-6 rounded-3xl shadow-md justify-center items-center gap-3"
+              >
+                <div class="icon">
+                  <img src="/Images/ux.png" alt="" class="md:w-14 md:h-14 w-10 h-10" />
+                </div>
+                <div class="name text-sm md:text-lg font-semibold">Ui-Ux Design</div>
+              </div>
+              <div
+                class="expertisecard flex flex-col bg-white py-6 rounded-3xl shadow-md justify-center items-center gap-3"
+              >
+                <div class="icon">
+                  <img src="/Images/paint.png" alt="" class="md:w-14 md:h-14 w-10 h-10" />
+                </div>
+                <div class="name text-sm md:text-lg font-semibold">Web Design</div>
+              </div>
+              <div
+                class="expertisecard flex flex-col bg-white py-6 rounded-3xl shadow-md justify-center items-center gap-3"
+              >
+                <div class="icon">
+                  <img src="/Images/character.png" alt="" class="md:w-14 md:h-14 w-10 h-10" />
+                </div>
+                <div class="name text-sm md:text-lg font-semibold">Motion Design</div>
+              </div>
+              <div
+                class="expertisecard flex flex-col bg-white py-6 rounded-3xl shadow-md justify-center items-center gap-3"
+              >
+                <div class="icon">
+                  <img src="/Images/brand.png" alt="" class="md:w-14 md:h-14 w-10 h-10" />
+                </div>
+                <div class="name text-sm md:text-lg font-semibold">Brand Design</div>
+              </div>
+              <div
+                class="expertisecard flex flex-col bg-white py-6 rounded-3xl shadow-md justify-center items-center gap-3"
+              >
+                <div class="icon">
+                  <img src="/Images/app.png" alt="" class="md:w-14 md:h-14 w-10 h-10" />
+                </div>
+                <div class="name text-sm md:text-lg font-semibold">Apps Design</div>
+              </div>
+              <div
+                class="expertisecard flex flex-col bg-white py-6 rounded-3xl shadow-md justify-center items-center gap-3"
+              >
+                <div class="icon">
+                  <img src="/Images/megaphone.png" alt="" class="md:w-14 md:h-14 w-10 h-10" />
+                </div>
+                <div class="name text-xs md:text-lg font-semibold">Digital Marketing</div>
+              </div>
+            </div>
+          </div>
+          <div class="rughtside w-full sm:w-[50%]">
+            <div class="imgbox w-full flex justify-center items-center">
+              <img src="/Images/computer.png" alt="" class="object-cover sm:p-0 px-5 p-2" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="clients h-auto mt-28">
+        <div
+          class="newsletterbox bg-[#F9F3F5] flex flex-col sm:flex-row items-center  md:px-20 md:py-8 py-4 px-1 gap-7 md:gap-12"
+        >
+          <div class="leftside w-full sm:w-[45%]">
+            <div class="titlebox w-full px-3 md:px-12 ">
+              <div
+                class="maintitle w-full flex justify-center text-2xl md:text-3xl font-extrabold text-[#282828]"
+              >
+              Happy client
+              </div>
+              <div
+                class="subtitle flex w-full justify-center items-center text-center text-lg md:text-xl text-[#C4C4C4] mt-4"
+              >
+              Mauris aliquet egestas metus, 
+              id pellentesque mauris tincidunt.
+              </div>
+            </div>
+          </div>
+          <div class="rightside w-full sm:w-[55%]">
+            <div class="boxinp w-full flex justify-between items-center pr-0 sm:pr-2 gap-8 md:gap-0 ">
+           <div class="air"><img src="/Images/airbnb.png" alt=""></div>
+           <div class="air"><img src="/Images/samsung.png" alt=""></div>
+           <div class="air"><img src="/Images/amazon.png" alt=""></div>
+          </div>
+        </div>
+      </section>
+      <section class="blog h-auto mt-28">
+        <div class="blogbox flex flex-col sm:flex-row gap-3 w-full justify-center items-center">
+          <div class="leftside w-full sm:w-[40%] flex justify-center items-center">
+            <div class="imgbox w-full"><img src="/Images/mansion.png" alt="" class="object-cover flex justify-center items-center"></div>
+          </div>
+          <div class="rightside w-full sm:w-[60%]">
+            <div class="blogbox flex flex-col gap-3 md:gap-5">
+              <div class="title text-2xl md:text-3xl font-semibold text-[#282828]">Blog News</div>
+              <div class="firstparag text-[#282828] text-md md:text-lg">If your new brand has a message to communicate, then you need to determine when and how communication of that message starts.</div>
+              <div class="secondparag text-[#C4C4C4] text-sm md:text-md">A great brand video starts with a great video script, whether you’re making a commercial or explainer video. Voiceover, music, visuals—these devices enhance your story, but that story needs to be on paper first. Your creative   </div>
+              <div class="readmore flex gap-3 md:gap-5 justify-start items-center">
+                <div class="cv text-lg md:text-xl mt-7 text-[#FF4C60]">Read More</div>
+                <div class="empty w-14 md:w-32 h-[.5px] bg-[#FF4C60] mt-8"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="socials h-auto mt-28">
+        <div
+          class="socialsbox bg-[#F9F3F5] flex flex-col sm:flex-row items-center md:px-20 md:py-8 py-4 px-1 gap-5 md:gap-12"
+        >
+          <div class="leftside w-full sm:w-[45%]">
+            <div class="titlebox w-full px-3 md:px-12">
+              <div
+                class="maintitle w-full flex justify-center text-2xl md:text-3xl font-poppins font-extrabold text-[#282828]"
+              >
+              Social Media 
+              </div>
+              <div
+                class="subtitle flex w-full justify-center items-center text-center text-lg md:text-xl font-poppins text-[#C4C4C4] mt-4"
+              >
+              Mauris aliquet egestas metus, 
+              id pellentesque mauris tincidunt.
+              </div>
+            </div>
+          </div>
+          <div class="rightside w-full sm:w-[55%]">
+            <div class="boxinp w-full flex justify-between items-center pr-5 ">
+           <div class="iconbox flex flex-col gap-1 justify-center items-center"><i class='bx bxl-facebook text-3xl md:text-4xl'></i><div class="icontext text-md md:text-lg">Facebook</div></div>
+           <div class="iconbox flex flex-col gap-1 justify-center items-center"><i class='bx bxl-pinterest-alt text-3xl md:text-4xl'></i><div class="icontext text-md md:text-lg">Pinterest</div></div>
+           <div class="iconbox flex flex-col gap-1 justify-center items-center"><i class='bx bxl-instagram text-3xl md:text-4xl'></i><div class="icontext text-md md:text-lg">Instagram</div></div>
+           <div class="iconbox flex flex-col gap-1 justify-center items-center"><i class='bx bxl-twitter text-3xl md:text-4xl' ></i><div class="icontext text-md md:text-lg">Twitter</div></div>
+          
+          </div>
+        </div>
+      </section>
+      <section class="portfolio w-full h-auto mt-28">
+        <div class="portfoliobox w-full">
+          <div class="topbuttons flex sm:justify-end justify-center items-center gap-14 md:gap-28">
+            <div class="3d flex gap-3 md:gap-6 justify-center items-center">
+              <div class="textx bg-[#F9F3F5] text-[#282828] font-semibold text-md md:text-lg p-1 md:p-3">3D Motion Design</div>
+              <div class="icon bg-white p-1 md:p-2 rounded-full flex justify-center items-center shadow-md"><i class='bx bx-right-arrow-alt text-[#FF4C60] text-xl md:text-2xl '></i></div>
+            </div>
+            <div class="portbig text-2xl md:text-3xl font-semibold">Portfolio</div>
+          </div>
+
+          <div class="portfolioimgs flex flex-col sm:flex-row justify-center items-center gap-4 md:gap-8 mt-8 w-full">
+            <img src="/Images/img3.jpg" alt="" class="h-[350px] md:h-[450px] w-full flex-1  object-cover mt-0 md:-mt-32 sm:-mt-20">
+            <img src="/Images/img1.jpg" alt="" class="h-[350px] md:h-[450px] w-full flex-1 object-cover">
+            <img src="/Images/img2.jpg" alt="" class="h-[350px] md:h-[450px] w-full flex-1 object-cover mt-0 md:-mt-32 sm:mt-20">
+          </div>
+        </div>
+      </section>
+      <section class="contact h-auto mt-28">
+        <div class="contactbox flex flex-col sm:flex-row w-full justify-center items-center gap-8 sm:gap-0">
+          <div class="leftside bg-[#F9F3F5] w-full sm:w-[55%]">
+            <div class="infobox px-4 md:px-10 py-10 md:py-20">
+              <div class="title text-[#282828] font-semibold text-xl md:text-2xl">Get in touch with us!</div>
+              <div class="parag text-[#282828] text-md mt-3 md:mt-6">
+                Whether you want to learn about UX or need product design services let us help with your challenge.
+              </div>
+              <div class="icontext flex justify-between items-center gap-4 md:gap-10 mt-6 md:mt-10">
+              <div class="iconcard flex flex-col gap-5 flex-1 justify-center items-center">
+                <div class="icon  bg-[#FF4C60] rounded-3xl flex justify-center items-center w-24 md:w-28 h-16 md:h-20"><i class='bx bxs-envelope text-white text-3xl md:text-4xl'></i> </div>
+                <div class="emails">
+                 <div class="email1 md:text-md text-sm">contact@benzatine.com </div>
+                 <div class="email2 md:text-md text-sm">contact@benzatine.com </div>
+                </div>
+                
+              </div>
+              <div class="iconcard flex flex-col gap-5 flex-1 justify-center items-center">
+                <div class="icon  bg-[#FF4C60] rounded-3xl flex justify-center items-center w-24 md:w-28 h-16 md:h-20"><i class='bx bxs-phone text-white text-3xl md:text-4xl'></i></div>
+                <div class="phone text-[#282828]">
+                  <div class="md:text-md text-sm">+91 7567583566</div>
+                  <div class="md:text-md text-sm">+91 7567583566 </div>
+                </div>
+              </div>
+            </div>
+          </div></div>
+          <div class="rightside bg-[#FFFAFA] w-full sm:w-[45%]">
+            <div class="formbox shadow-lg rounded-sm ">
+              <form action="" class="md:px-6 md:py-4 p-2  ">
+                <div class="title flex justify-center items-center font-semibold text-xl md:text-2xl text-[#282828]">Contact form</div>
+
+                <div class="formbody mt-5 md:mt-8  w-full">
+                  <div class="namephone flex gap-4 md:gap-7  w-full">
+                    <input type="text" placeholder="Name" class="text-[#C4C4C4] text-sm md:text-lg bg-white shadow-md rounded-2xl pl-5  py-3 outline-none w-full">
+                    <input type="text" placeholder="Phone number" class="text-[#C4C4C4] text-sm md:text-lg bg-white shadow-md rounded-2xl pl-5 py-3 outline-none w-full ">
+                    
+                  </div>
+                  <div class="email mt-5">
+                    <input type="Email" placeholder="Email address" class="text-[#C4C4C4] text-sm md:text-lg bg-white shadow-md rounded-2xl pl-5 py-3 outline-none w-full">
+                  </div>
+                  <div class="subject mt-5">
+                    <input type="text" placeholder="Subject" class="text-[#C4C4C4] text-sm md:text-lg bg-white shadow-md rounded-2xl pl-5 py-3 outline-none">
+                  </div>
+
+                  <div class="message mt-5">
+                    <textarea name="message"  rows="8" placeholder="Message" class="text-[#C4C4C4] text-sm md:text-lg bg-white shadow-md rounded-2xl pl-5 py-3 outline-none w-full"></textarea>
+                  </div>
+                </div>
+                <button class="btn text-[#C4C4C4] text-sm md:text-lg bg-white shadow-md rounded-2xl px-16 py-3 border-none mt-5" >Submit</button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+    <footer class="footer h-auto mt-16">
+      <div class="footerbox w-full flex items-center justify-center text-[#FF4C60] text-xs sm:text-md md:text-xl"> &copy;2022 Benzatine Infotech. Design with  <span><img src="/Images/love.png" alt="" class="w-6 h-6"></span> HItesh Tapaniya</div>
+    </footer>
+   
+  </body>
+
+</html>
